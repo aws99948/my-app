@@ -1,0 +1,9 @@
+name: Firstworkflow
+on: workflow_dispatch
+jobs:
+  init-job:
+    run-on: ubuntu-latest
+    steps:
+      - name: Print somethink
+        run: echo "a statement"
+  
